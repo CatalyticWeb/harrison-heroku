@@ -9,11 +9,11 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
-<body ng-app="hi-angular">
+<body ng-app="Dev Qualifying Exam App">
     <div class="container-fluid" ng-controller="MainController">
         <div class="row">
             <div class="col-md-8 offset-md-2">
-                <a href="/file">go here to see how you can write a file to the server</a>
+               <!-- <a href="/file">go here to see how you can write a file to the server</a> -->
             </div>
         </div>
         <div class="row">
@@ -21,9 +21,9 @@
                 <h1 id="page-title">Sup, Dr. Cumbie!</h1>
                 <input ng-model="user.name">
                 <h3 id="user-greeting">it's, {{ user.name }}, again.</h3>
-                <p id="user-github">Did you know my user on GitHub is {{ user.github }}?<br> Or that the code for this web app can be found at <a href="https://github.com/CatalyticWeb/harrison-heroku">{{ user.repo }}</a></p>
-                <p id="user-app">Also, I have this app hosted at <a href="https://harrison-heroku.herokuapp.com/">{{ user.app }}</a></p>
-                <p id="user-skills">Oh, and Check out all my skills: <br> {{ user.skills }}</p>
+                <p id="user-github">Did you know my user on GitHub is {{ user.github }}?<br> Or that the code for this web app can be found at <a href="https://github.com/CatalyticWeb/harrison-heroku">{{ user.repo }}?</a></p>
+                <p id="user-app">Also, I have this app hosted at <a href="https://harrison-heroku.herokuapp.com/">{{ user.app }}.</a></p>
+                <p id="user-skills">Oh, and Check out all my skills: <br> {{ user.skills[0] }} <br> {{ user.skills[1] }} <br> {{ user.skills[2] }} <br> {{ user.skills[3] }} <br></p>
             </div>
         </div>
     </div>
