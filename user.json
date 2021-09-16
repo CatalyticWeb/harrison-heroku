@@ -2,6 +2,6 @@
     "name": "Chase Harrison",
     "github": "CatalyticWeb",
     "repo": "https://github.com/CatalyticWeb/harrison-heroku",
-    "app": "URL for heroku app here",
+    "app": "https://harrison-heroku.herokuapp.com/",
     "skills": ["skill 1", "skill 2", "skill 3", "skill n"]
 }
