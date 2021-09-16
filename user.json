@@ -1,4 +1,7 @@
 {
-    "name": "tom tom",
-    "car": "thunderbird"
+    "name": "Chase Harrison",
+    "github": "CatalyticWeb",
+    "repo": "https://github.com/CatalyticWeb/harrison-heroku",
+    "app": "URL for heroku app here",
+    "skills": ["skill 1", "skill 2", "skill 3", "skill n"]
 }
