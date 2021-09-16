@@ -3,5 +3,5 @@
     "github": "CatalyticWeb",
     "repo": "https://github.com/CatalyticWeb/harrison-heroku",
     "app": "https://harrison-heroku.herokuapp.com/",
-    "skills": ["HTML", "CSS", "JavaScript", "Node.js", "Angular.js", "Express"]
+    "skills": ["HTML", "CSS", "JavaScript", "Node.js", "Angular.js"]
 }
